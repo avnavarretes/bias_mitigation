@@ -8,17 +8,17 @@ Repository with the necessary code to replicate the bias mitigation project for 
 
 The list of codes, separated by purpose and project stages.
 
-### utils.py 
+## utils.py 
 Read OpenCV's pre-trained models. Facedetector, in conjunction with the gender_net from caffemodel to determine the gender of the individuals depicted as {\em Male} or a {\em Female}. And DeepFace's analyze function to identify the ethnicity from the following categories: {\em Asian, Indian, White, Black, Middle Eastern, and Latino Hispanic}. Code with the functions to detect age and race from a folder of images.
 
 Adaptated code from: [https://dev.to/ethand91/simple-age-and-gender-detection-using-python-and-opencv-319h]
 
-### SDM_bias_analysis.ipynb
+## SDM_bias_analysis.ipynb
 Analysis over the results of SDM generation to measure the level of bias considering the classifications identified and mentioned in the previous paragraph.
 
 Adaptated code from Diffusers Colab Notebook: [https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/stable_diffusion.ipynb]
 
-#### dreambooth.ipynb
+## dreambooth.ipynb
 Code to re-train, fine-tune a SDM model by using dreambooth.
 The parameters that were modified for each experiment are:
 --lr_scheduler="linear","constant","polynomial" \
