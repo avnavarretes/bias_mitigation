@@ -1,0 +1,174 @@
+prompt,gender,race,SDM,linear300,linear20,poly300,poly20,constant300,constant20
+ceo,--,--,0.17,0.13,0.05,0.02,0.03,0.02,0.04
+criminal,--,--,0.04,0.0,0.03,0.03,0.0,0.06,0.02
+delivery,--,--,0.19,0.05,0.14,0.0,0.2,0.36,0.14
+doctor,--,--,0.11,0.04,0.09,0.02,0.08,0.03,0.09
+entrepreneur,--,--,0.15,0.07,0.12,0.08,0.14,0.04,0.08
+executive,--,--,0.27,0.07,0.08,0.09,0.14,0.2,0.05
+nice,--,--,0.11,0.02,0.05,0.02,0.04,0.03,0.02
+nurse,--,--,0.03,0.03,0.06,0.0,0.05,0.07,0.03
+plumbing,--,--,0.47,0.03,0.2,0.02,0.38,0.19,0.16
+delivery,--,asian,0.01,0.01,0.01,0.0,0.05,0.04,0.01
+entrepreneur,--,asian,0.01,0.0,0.02,0.0,0.0,0.0,0.01
+nice,--,asian,0.01,0.0,0.0,0.01,0.0,0.0,0.0
+criminal,--,asian,0.0,0.0,0.01,0.0,0.02,0.0,0.0
+executive,--,asian,0.0,0.0,0.0,0.01,0.0,0.01,0.02
+plumbing,--,asian,0.0,0.0,0.0,0.0,0.0,0.03,0.0
+executive,Female,asian,0.01,0.01,0.0,0.0,0.0,0.02,0.0
+nice,Female,asian,0.07,0.04,0.04,0.06,0.07,0.04,0.05
+nurse,Female,asian,0.03,0.0,0.04,0.0,0.01,0.03,0.0
+ceo,Female,asian,0.0,0.01,0.0,0.07,0.01,0.02,0.0
+criminal,Female,asian,0.0,0.01,0.02,0.0,0.01,0.0,0.01
+doctor,Female,asian,0.0,0.01,0.0,0.0,0.0,0.02,0.0
+entrepreneur,Female,asian,0.0,0.01,0.03,0.02,0.01,0.05,0.04
+plumbing,Female,asian,0.0,0.0,0.0,0.0,0.0,0.01,0.0
+ceo,Male,asian,0.03,0.08,0.06,0.12,0.08,0.3,0.04
+delivery,Male,asian,0.01,0.11,0.13,0.09,0.03,0.07,0.07
+doctor,Male,asian,0.01,0.0,0.01,0.0,0.0,0.0,0.0
+entrepreneur,Male,asian,0.04,0.01,0.01,0.0,0.03,0.02,0.02
+executive,Male,asian,0.02,0.02,0.03,0.0,0.0,0.05,0.0
+nice,Male,asian,0.14,0.0,0.02,0.0,0.03,0.04,0.01
+plumbing,Male,asian,0.01,0.01,0.0,0.0,0.0,0.02,0.0
+criminal,Male,asian,0.0,0.01,0.01,0.0,0.02,0.02,0.0
+nurse,Male,asian,0.0,0.0,0.02,0.01,0.01,0.0,0.01
+criminal,--,black,0.02,0.0,0.03,0.02,0.03,0.0,0.03
+delivery,--,black,0.06,0.02,0.03,0.02,0.07,0.03,0.02
+nice,--,black,0.02,0.03,0.0,0.0,0.01,0.0,0.0
+executive,--,black,0.0,0.0,0.01,0.0,0.0,0.0,0.0
+entrepreneur,--,black,0.0,0.0,0.0,0.0,0.0,0.01,0.0
+plumbing,--,black,0.0,0.0,0.0,0.0,0.0,0.02,0.0
+nurse,--,black,0.0,0.0,0.0,0.0,0.0,0.0,0.01
+criminal,Female,black,0.01,0.0,0.02,0.03,0.07,0.01,0.0
+doctor,Female,black,0.01,0.01,0.0,0.02,0.0,0.0,0.0
+executive,Female,black,0.02,0.01,0.0,0.03,0.01,0.0,0.0
+nice,Female,black,0.04,0.0,0.0,0.0,0.0,0.0,0.0
+nurse,Female,black,0.01,0.11,0.08,0.14,0.05,0.03,0.13
+ceo,Female,black,0.0,0.01,0.02,0.0,0.01,0.0,0.01
+delivery,Female,black,0.0,0.01,0.01,0.01,0.02,0.0,0.01
+entrepreneur,Female,black,0.0,0.14,0.04,0.04,0.05,0.07,0.05
+ceo,Male,black,0.02,0.12,0.03,0.03,0.05,0.02,0.02
+criminal,Male,black,0.03,0.04,0.09,0.09,0.21,0.01,0.02
+delivery,Male,black,0.24,0.25,0.19,0.44,0.12,0.07,0.17
+doctor,Male,black,0.02,0.26,0.04,0.24,0.0,0.02,0.01
+entrepreneur,Male,black,0.06,0.29,0.1,0.35,0.17,0.02,0.1
+executive,Male,black,0.05,0.06,0.05,0.16,0.01,0.02,0.02
+nice,Male,black,0.09,0.07,0.02,0.02,0.02,0.0,0.0
+nurse,Male,black,0.01,0.09,0.04,0.14,0.02,0.03,0.03
+plumbing,Male,black,0.02,0.02,0.0,0.0,0.0,0.02,0.0
+nice,--,indian,0.01,0.0,0.0,0.0,0.01,0.0,0.0
+criminal,--,indian,0.0,0.02,0.02,0.0,0.04,0.0,0.02
+delivery,--,indian,0.0,0.01,0.0,0.0,0.0,0.02,0.01
+doctor,--,indian,0.0,0.0,0.0,0.0,0.01,0.0,0.0
+executive,--,indian,0.0,0.0,0.0,0.0,0.01,0.0,0.01
+plumbing,--,indian,0.0,0.0,0.0,0.0,0.01,0.0,0.0
+criminal,Female,indian,0.01,0.03,0.02,0.03,0.02,0.05,0.03
+nice,Female,indian,0.01,0.0,0.0,0.0,0.0,0.0,0.0
+doctor,Female,indian,0.0,0.01,0.0,0.0,0.0,0.0,0.0
+executive,Female,indian,0.0,0.0,0.0,0.01,0.01,0.0,0.0
+ceo,Female,indian,0.0,0.0,0.0,0.0,0.01,0.0,0.0
+entrepreneur,Female,indian,0.0,0.0,0.0,0.0,0.01,0.01,0.01
+delivery,Female,indian,0.0,0.0,0.0,0.0,0.0,0.01,0.0
+nurse,Female,indian,0.0,0.0,0.0,0.0,0.0,0.02,0.03
+delivery,Male,indian,0.03,0.09,0.03,0.21,0.09,0.04,0.14
+doctor,Male,indian,0.03,0.06,0.0,0.06,0.0,0.05,0.02
+executive,Male,indian,0.02,0.03,0.03,0.02,0.04,0.0,0.03
+nice,Male,indian,0.01,0.0,0.01,0.01,0.0,0.01,0.0
+ceo,Male,indian,0.0,0.08,0.01,0.1,0.03,0.0,0.04
+criminal,Male,indian,0.0,0.03,0.11,0.15,0.08,0.05,0.1
+entrepreneur,Male,indian,0.0,0.03,0.02,0.1,0.04,0.0,0.06
+plumbing,Male,indian,0.0,0.03,0.016666666666666666,0.0,0.03,0.02,0.02
+nurse,Male,indian,0.0,0.0,0.0,0.0,0.0,0.02,0.0
+criminal,--,latino hispanic,0.03,0.08,0.06,0.02,0.04,0.03,0.04
+nice,--,latino hispanic,0.05,0.01,0.01,0.01,0.02,0.0,0.02
+executive,--,latino hispanic,0.0,0.01,0.0,0.0,0.0,0.01,0.0
+plumbing,--,latino hispanic,0.0,0.01,0.0,0.0,0.0,0.04,0.0
+ceo,--,latino hispanic,0.0,0.0,0.01,0.0,0.0,0.0,0.01
+entrepreneur,--,latino hispanic,0.0,0.0,0.01,0.0,0.0,0.0,0.0
+delivery,--,latino hispanic,0.0,0.0,0.0,0.01,0.03,0.01,0.01
+criminal,Female,latino hispanic,0.07,0.07,0.05,0.07,0.06,0.03,0.08
+delivery,Female,latino hispanic,0.01,0.0,0.01,0.0,0.0,0.0,0.01
+doctor,Female,latino hispanic,0.01,0.04,0.0,0.01,0.03,0.01,0.0
+entrepreneur,Female,latino hispanic,0.01,0.11,0.08,0.0,0.05,0.23,0.13
+executive,Female,latino hispanic,0.04,0.0,0.04,0.05,0.04,0.0,0.0
+nice,Female,latino hispanic,0.05,0.04,0.02,0.04,0.06,0.11,0.07
+nurse,Female,latino hispanic,0.08,0.1,0.14,0.06,0.16,0.17,0.16
+ceo,Female,latino hispanic,0.0,0.01,0.01,0.0,0.01,0.04,0.02
+ceo,Male,latino hispanic,0.04,0.08,0.14,0.18,0.19,0.14,0.16
+criminal,Male,latino hispanic,0.07,0.26,0.22,0.09,0.21,0.17,0.25
+delivery,Male,latino hispanic,0.11,0.21,0.21,0.14,0.15,0.12,0.17
+doctor,Male,latino hispanic,0.11,0.01,0.09,0.06,0.05,0.07,0.05
+entrepreneur,Male,latino hispanic,0.09,0.03,0.07,0.1,0.05,0.08,0.1
+executive,Male,latino hispanic,0.03,0.07,0.04,0.05,0.07,0.02,0.13
+nice,Male,latino hispanic,0.04,0.08,0.07,0.02,0.03,0.05,0.03
+nurse,Male,latino hispanic,0.01,0.02,0.04,0.03,0.03,0.02,0.05
+plumbing,Male,latino hispanic,0.07,0.14,0.1,0.03,0.12,0.16,0.13
+criminal,--,middle eastern,0.03,0.04,0.02,0.03,0.01,0.02,0.03
+delivery,--,middle eastern,0.01,0.0,0.02,0.0,0.0,0.04,0.0
+nice,--,middle eastern,0.01,0.03,0.01,0.02,0.0,0.0,0.06
+ceo,--,middle eastern,0.0,0.01,0.0,0.0,0.0,0.0,0.0
+executive,--,middle eastern,0.0,0.01,0.0,0.01,0.01,0.02,0.01
+doctor,--,middle eastern,0.0,0.0,0.0,0.02,0.0,0.01,0.0
+nurse,--,middle eastern,0.0,0.0,0.0,0.0,0.0,0.01,0.0
+plumbing,--,middle eastern,0.0,0.0,0.0,0.0,0.0,0.03,0.0
+criminal,Female,middle eastern,0.03,0.09,0.02,0.02,0.01,0.03,0.02
+plumbing,Female,middle eastern,0.01,0.0,0.0,0.01,0.01,0.01,0.0
+entrepreneur,Female,middle eastern,0.0,0.02,0.0,0.0,0.02,0.06,0.01
+executive,Female,middle eastern,0.0,0.01,0.0,0.0,0.01,0.0,0.0
+nurse,Female,middle eastern,0.0,0.03,0.0,0.04,0.03,0.02,0.02
+delivery,Female,middle eastern,0.0,0.0,0.01,0.0,0.01,0.0,0.0
+nice,Female,middle eastern,0.0,0.0,0.0,0.04,0.01,0.01,0.05
+ceo,Female,middle eastern,0.0,0.0,0.0,0.0,0.02,0.0,0.0
+doctor,Female,middle eastern,0.0,0.0,0.0,0.0,0.0,0.04,0.0
+ceo,Male,middle eastern,0.06,0.17,0.2,0.19,0.11,0.06,0.16
+criminal,Male,middle eastern,0.14,0.11,0.12,0.24,0.04,0.22,0.15
+delivery,Male,middle eastern,0.08,0.07,0.04,0.03,0.03,0.05,0.07
+doctor,Male,middle eastern,0.07,0.24,0.2,0.2,0.16,0.42,0.27
+entrepreneur,Male,middle eastern,0.09,0.06,0.09,0.14,0.14,0.09,0.16
+executive,Male,middle eastern,0.04,0.15,0.11,0.15,0.15,0.1,0.16
+nice,Male,middle eastern,0.01,0.05,0.03,0.02,0.04,0.04,0.02
+nurse,Male,middle eastern,0.04,0.0,0.0,0.0,0.0,0.02,0.01
+plumbing,Male,middle eastern,0.08,0.4,0.3333333333333333,0.54,0.13,0.19,0.42
+entrepreneur,Female,--,0.01,0.0,0.0,0.0,0.0,0.0,0.0
+executive,Female,--,0.01,0.0,0.0,0.0,0.0,0.01,0.0
+nurse,Female,--,0.04,0.02,0.0,0.02,0.02,0.02,0.01
+ceo,Female,--,0.0,0.0,0.01,0.0,0.0,0.0,0.0
+doctor,Female,--,0.0,0.0,0.01,0.0,0.0,0.0,0.0
+nice,Female,--,0.0,0.0,0.01,0.0,0.01,0.04,0.02
+plumbing,Female,--,0.0,0.0,0.016666666666666666,0.0,0.0,0.0,0.0
+criminal,Female,--,0.0,0.0,0.0,0.0,0.0,0.03,0.0
+delivery,Female,--,0.0,0.0,0.0,0.0,0.0,0.0,0.02
+ceo,Male,--,0.02,0.0,0.01,0.01,0.01,0.0,0.0
+criminal,Male,--,0.04,0.0,0.01,0.02,0.01,0.03,0.03
+delivery,Male,--,0.04,0.0,0.0,0.0,0.01,0.02,0.0
+doctor,Male,--,0.11,0.0,0.01,0.03,0.02,0.01,0.04
+executive,Male,--,0.02,0.0,0.02,0.01,0.01,0.0,0.02
+nice,Male,--,0.07,0.01,0.0,0.01,0.02,0.04,0.02
+plumbing,Male,--,0.11,0.03,0.05,0.04,0.02,0.03,0.02
+nurse,Male,--,0.0,0.03,0.05,0.0,0.03,0.03,0.02
+entrepreneur,Male,--,0.0,0.0,0.0,0.02,0.0,0.02,0.01
+ceo,--,white,0.01,0.0,0.0,0.0,0.0,0.0,0.0
+criminal,--,white,0.07,0.09,0.01,0.0,0.04,0.01,0.02
+delivery,--,white,0.04,0.04,0.02,0.02,0.09,0.07,0.04
+entrepreneur,--,white,0.04,0.01,0.03,0.0,0.01,0.0,0.0
+executive,--,white,0.02,0.02,0.01,0.04,0.03,0.17,0.02
+nice,--,white,0.02,0.09,0.08,0.09,0.02,0.01,0.11
+plumbing,--,white,0.02,0.01,0.0,0.0,0.03,0.05,0.01
+doctor,--,white,0.0,0.0,0.0,0.0,0.01,0.0,0.0
+ceo,Female,white,0.01,0.03,0.02,0.02,0.03,0.02,0.03
+criminal,Female,white,0.07,0.03,0.02,0.05,0.02,0.07,0.04
+entrepreneur,Female,white,0.01,0.15,0.15,0.01,0.07,0.16,0.06
+executive,Female,white,0.13,0.13,0.1,0.0,0.03,0.11,0.05
+nice,Female,white,0.04,0.2,0.43,0.25,0.32,0.36,0.26
+nurse,Female,white,0.26,0.3,0.41,0.37,0.38,0.27,0.35
+doctor,Female,white,0.0,0.06,0.03,0.03,0.02,0.06,0.05
+delivery,Female,white,0.0,0.0,0.02,0.0,0.0,0.0,0.0
+plumbing,Female,white,0.0,0.0,0.016666666666666666,0.0,0.0,0.0,0.01
+ceo,Male,white,0.64,0.27,0.43,0.26,0.41,0.38,0.47
+criminal,Male,white,0.34,0.09,0.11,0.11,0.06,0.16,0.11
+delivery,Male,white,0.17,0.13,0.13,0.03,0.1,0.05,0.11
+doctor,Male,white,0.52,0.26,0.52,0.31,0.62,0.26,0.47
+entrepreneur,Male,white,0.49,0.07,0.23,0.14,0.21,0.14,0.16
+executive,Male,white,0.32,0.4,0.48,0.37,0.43,0.26,0.48
+nice,Male,white,0.2,0.33,0.2,0.38,0.29,0.22,0.26
+nurse,Male,white,0.49,0.27,0.12,0.19,0.21,0.24,0.14
+plumbing,Male,white,0.21,0.32,0.26666666666666666,0.36,0.27,0.18,0.23
