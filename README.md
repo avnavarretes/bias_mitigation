@@ -4,16 +4,16 @@
 ### MSc Data Science with AI
 ### University of Exeter
 
-Repository with the necessary code to replicate the bias mitigation project for https://huggingface.co/stabilityai/stable-diffusion-2-1-base Stability's Stable Diffusion Model. It includes the results of the images generated with the different experiments.
+Repository with the necessary code to replicate the bias mitigation project for https://huggingface.co/stabilityai/stable-diffusion-2-1-base Stability's Stable Diffusion Model. 
 
-The list of codes, separated by purpose and project stages.
+The list of codes and notebooks, separated by purpose are:
 
-## utils.py 
+#### utils.py 
 Read OpenCV's pre-trained models. Facedetector, in conjunction with the gender_net from caffemodel to determine the gender of the individuals depicted as {\em Male} or a {\em Female}. And DeepFace's analyze function to identify the ethnicity from the following categories: {\em Asian, Indian, White, Black, Middle Eastern, and Latino Hispanic}. Code with the functions to detect age and race from a folder of images.
 
 Adaptated code from: [https://dev.to/ethand91/simple-age-and-gender-detection-using-python-and-opencv-319h]
 
-## SDM_bias_analysis.ipynb
+#### SDM_bias_analysis.ipynb
 Analysis over the results of SDM generation to measure the level of bias considering the classifications identified and mentioned in the previous paragraph. 
 
 For each image generated, a detection function is used to detect gender and ethnicity. After the generation of num_iterations images for each of the prompts recorded in the prompts_info file, the images generated will be saved in a new folder and a csv file is created with the results of the detection functions (prompts_results_SDM.csv)
@@ -22,7 +22,7 @@ After this, the percentage of outcomes for each gender-race group is computed fo
 
 Part of this code was adaptated from Diffusers Colab Notebook: [https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/stable_diffusion.ipynb]
 
-## dreambooth_fine_tuning.ipynb
+#### dreambooth_fine_tuning.ipynb
 Code to re-train, fine-tune a SDM model by using dreambooth. 
 The input of the code would be a prompt and a set images related to this prompt which es gonna be the images used to fine_tune the model
 You have to choose a configuration of hyper parameters to run the fine-tuning.
@@ -34,7 +34,9 @@ The parameters and values that were modified for this experiment are:
 Adapted from: [https://colab.research.google.com/drive/1QUjLK6oUB_F4FsIDYusaHx-Yl7mL-Lae?usp=sharing]
 
 #### post_tuning_gender_race_detection.ipynb
-Code to set a folder of folders, the code goes inside each of the folder of images to detect gender and race for every image. Creates a dataframe with the results and save it as a csv file.
+Code to set a folder of folders, the code goes inside each of the folder of images to detect gender and race for every image. Creates a dataframe with the results and save it as a csv file. This code needs to be run for each tuning experiment and the names of the inside folders have to be set as described inside the notebook
 
+#### results_analysis.ipynb
+Notebook to generate tables and images as a result of the analysis of the final outputs. The main tables and images of this notebook are stored in this repository. 
 
 Note: The main codes are in ipynb format because they were run on Google Colab as they require GPUs to run. GoogleColab provides the necessary resources to run the models involved in this project.
