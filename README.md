@@ -4,6 +4,9 @@
 ### MSc Data Science with AI
 ### University of Exeter
 
+This README is part of the repository for this project that can be found in https://github.com/avnavarretes/bias_mitigation
+_____________
+
 Repository with the necessary code to replicate the bias mitigation project for https://huggingface.co/stabilityai/stable-diffusion-2-1-base Stability's Stable Diffusion Model. 
 
 The list of codes and notebooks, separated by purpose are:
