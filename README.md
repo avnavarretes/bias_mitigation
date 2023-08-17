@@ -4,11 +4,19 @@
 ### MSc Data Science with AI
 ### University of Exeter
 
+Author: Navarrete Soto, Angie 
+Supervisor: Huang, Zijie
 This README is part of the repository for this project that can be found in https://github.com/avnavarretes/bias_mitigation
 _____________
 
-Repository with the necessary code to replicate the bias mitigation project for https://huggingface.co/stabilityai/stable-diffusion-2-1-base Stability's Stable Diffusion Model. 
+Repository with the necessary code to replicate the bias mitigation project for Stability's Stable Diffusion Model. 
 
+The information for Stable Diffusion Model can be found in:
+https://huggingface.co/stabilityai/stable-diffusion-2-1-base
+
+All of the images generated in this project can be found in the following Drive folder: https://drive.google.com/drive/folders/1whNZgqW8LkaKTMHEjXEEwNk2lNWUyV-Y?usp=sharing
+
+## Code
 The list of codes and notebooks, separated by purpose are:
 
 #### utils.py 
@@ -34,7 +42,7 @@ The parameters and values that were modified for this experiment are:
 --num_class_images=20, 300 \
 --max_train_steps=100, 1000
 
-Adapted from: [https://colab.research.google.com/drive/1QUjLK6oUB_F4FsIDYusaHx-Yl7mL-Lae?usp=sharing]
+This code was adapted from: [https://colab.research.google.com/drive/1QUjLK6oUB_F4FsIDYusaHx-Yl7mL-Lae?usp=sharing]
 
 #### post_tuning_gender_race_detection.ipynb
 Code to set a folder of folders, the code goes inside each of the folder of images to detect gender and race for every image. Creates a dataframe with the results and save it as a csv file. This code needs to be run for each tuning experiment and the names of the inside folders have to be set as described inside the notebook
